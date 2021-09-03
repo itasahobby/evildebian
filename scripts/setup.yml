@@ -1,0 +1,12 @@
+---
+- name: "Setup.yml"
+  hosts: localhost
+  gather_facts: yes
+  become: yes
+  tasks:
+  - name: Install open-vm-tools
+    apt:
+      name: open-vm-tools
+      state: latest
+    when:
+      - ansible_virtualization_type == "VMware"
