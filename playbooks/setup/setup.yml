@@ -1,0 +1,9 @@
+---
+- name: "Setup VM.yml"
+  hosts: all
+  become: yes
+  tasks:
+  - name: Install open-vm-tools
+    apt:
+      name: open-vm-tools
+      state: latest
