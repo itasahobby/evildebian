@@ -47,9 +47,11 @@
     },
     {
       "type": "ansible-local",
-      "playbook_files": [
-        "playbooks/setup/setup.yml"
+      "playbook_paths": [
+        "playbooks/dotfiles",
+        "playbooks/setup"
       ],
+      "playbook_file": "playbooks/main.yml",
       "inventory_groups": ["all"]
     },
     {

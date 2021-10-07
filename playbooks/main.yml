@@ -1,0 +1,3 @@
+---
+- import_playbook: playbooks/setup/setup.yml
+- import_playbook: playbooks/dotfiles/dotfiles.yml
