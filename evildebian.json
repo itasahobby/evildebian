@@ -1,6 +1,6 @@
 {
   "variables": {
-      "vm_name": "Pentesting",
+      "vm_name": "evildebian",
       "numvcpus": "1",
       "memsize": "8192",
       "disk_size": "102400",

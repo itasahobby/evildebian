@@ -6,7 +6,7 @@ jobs:
   packer:
     runs-on: ubuntu-latest
     env:
-      TARGET: infosec_debian.json
+      TARGET: evildebian.json
     name: packer
     steps:
       - name: Checkout Repository

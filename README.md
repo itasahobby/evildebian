@@ -15,14 +15,14 @@
   <p align="center">
     Packer infosec setup using debian 11
     <br />
-    <a href="https://github.com/itasahobby/infosec_debian"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/itasahobby/evildebian"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/itasahobby/infosec_debian">View Demo</a>
+    <a href="https://github.com/itasahobby/evildebian">View Demo</a>
     ·
-    <a href="https://github.com/itasahobby/infosec_debian/issues">Report Bug</a>
+    <a href="https://github.com/itasahobby/evildebian/issues">Report Bug</a>
     ·
-    <a href="https://github.com/itasahobby/infosec_debian/issues">Request Feature</a>
+    <a href="https://github.com/itasahobby/evildebian/issues">Request Feature</a>
   </p>
 </p>
 
@@ -67,21 +67,21 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/itasahobby/infosec_debian.git
+   git clone https://github.com/itasahobby/evildebian.git
    ```
 2. Step into the cloned directory
    ```sh
-   cd infosec_debian
+   cd evildebian
    ```
 3. Execute the ansible playbook
     ```sh
-    packer.exe build -only=vmware-iso .\infosec_debian.json
+    packer.exe build -only=vmware-iso .\evildebian.json
     ```
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/itasahobby/infosec_debian/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/itasahobby/evildebian/issues) for a list of proposed features (and known issues).
 
 
 
@@ -105,15 +105,15 @@ Project inspired by [eaksel](https://github.com/eaksel/packer-Debian9)
 
 [@jusepe_it](https://twitter.com/jusepe_it)
 
-Project Link: [https://github.com/itasahobby/infosec_debian](https://github.com/itasahobby/infosec_debian)
+Project Link: [https://github.com/itasahobby/evildebian](https://github.com/itasahobby/evildebian)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/itasahobby/infosec_debian.svg?style=for-the-badge
-[contributors-url]: https://github.com/itasahobby/infosec_debian/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/itasahobby/infosec_debian.svg?style=for-the-badge
-[forks-url]: https://github.com/itasahobby/infosec_debian/network/members
-[stars-shield]: https://img.shields.io/github/stars/itasahobby/infosec_debian.svg?style=for-the-badge
-[stars-url]: https://github.com/itasahobby/infosec_debian/stargazers
-[issues-shield]: https://img.shields.io/github/issues/itasahobby/infosec_debian.svg?style=for-the-badge
-[issues-url]: https://github.com/itasahobby/infosec_debian/issues
+[contributors-shield]: https://img.shields.io/github/contributors/itasahobby/evildebian.svg?style=for-the-badge
+[contributors-url]: https://github.com/itasahobby/evildebian/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/itasahobby/evildebian.svg?style=for-the-badge
+[forks-url]: https://github.com/itasahobby/evildebian/network/members
+[stars-shield]: https://img.shields.io/github/stars/itasahobby/evildebian.svg?style=for-the-badge
+[stars-url]: https://github.com/itasahobby/evildebian/stargazers
+[issues-shield]: https://img.shields.io/github/issues/itasahobby/evildebian.svg?style=for-the-badge
+[issues-url]: https://github.com/itasahobby/evildebian/issues
