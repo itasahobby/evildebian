@@ -1,3 +1,0 @@
-[submodule ".\\playbooks\\dotfiles"]
-	path = .\\playbooks\\dotfiles
-	url = https://github.com/itasahobby/dotfiles
