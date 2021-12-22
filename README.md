@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/itasahobby/evildebian.git
+   git clone --recurse-submodules https://github.com/itasahobby/evildebian.git
    ```
 2. Step into the cloned directory
    ```sh
@@ -75,7 +75,7 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Execute the ansible playbook
     ```sh
-    packer.exe build -only=vmware-iso .\evildebian.json
+    packer.exe build .\evildebian.json
     ```
 
 <!-- ROADMAP -->
