@@ -1,3 +1,4 @@
 ---
 - import_playbook: setup/setup.yml
 - import_playbook: dotfiles/dotfiles.yml
+- import_playbook: tools/tools.yml
